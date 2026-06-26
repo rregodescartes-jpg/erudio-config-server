@@ -6,7 +6,7 @@ spring:
       enabled: false
 greeting-service:
   name: "Rafael"
-  defaultValue: "bem-vindo!"
+  defaultValue: "Bem-vindo!"
 
 management:
   endpoints:
