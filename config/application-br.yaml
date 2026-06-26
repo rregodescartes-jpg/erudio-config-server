@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: greeting-service
+  cloud:
+    config:
+      enabled: false
+greeting-service:
+  name: "Rafael"
+  defaultValue: "bem-vindo!"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
+  endpoint:
+    health:
+      show-details: always
